@@ -15,25 +15,67 @@
     </div>
     <div class="menu">
         <ul>
-            <li><a href="">link1</a></li>
-            <li><a href="">link1</a></li>
-            <li><a href="">link1</a></li>
-            <li><a href="">link1</a></li>
+            <li><a href="#contenidos">Contenidos</a></li>
+            <li><a href="#profesores">Profesores</a></li>
+            <li><a href="#integrantes">Integrantes</a></li>
+            <li><a href="#contacto">Contacto</a></li>
         </ul>
     </div>
 
-    <div class="titulo">
-        HTML: Lenguaje de etiquetas de hipertexto
+    <div class="titulo-principal">
+        FullStack Java
     </div>
     <div class="card-container">
-        <div class="card">
+        <div class="card" id="contenidos">
             <img src="assets/img/codoacodo.avif" alt="Descripción de la imagen">
             <div class="card-info">
-                <h2>Título</h2>
-                <p>Descripcion</p>
+                <h2 class="titulo">Contenidos</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore hic sunt 
+                    quam possimus quo consequuntur eum, consectetur laboriosam blanditiis expedita maiores 
+                    deserunt officiis quod soluta nam quaerat incidunt. Atque.</p>
             </div>
         </div>
-        
+        <div class="card" id="profesores">
+            <img src="assets/img/codoacodo.avif" alt="Descripción de la imagen">
+            <div class="card-info">
+                <h2 class="titulo">Profesores</h2>
+                <p> <b>Santos Sanchez.</b>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet labore hic sunt 
+                    quam possimus quo consequuntur eum, consectetur laboriosam blanditiis expedita maiores 
+                    deserunt officiis quod soluta nam quaerat incidunt. Atque.
+                </p>
+            </div>
+        </div>
+        <div id="integrantes">
+            <h2 class="titulo">Integrantes</h2>
+            <div class="container-integrantes">
+                <div class="card-integrantes">
+                    <img src="assets/img/bojack.jpg" alt="Santiago Caballitos">
+                    <h3>Santiago Ceballos</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolores 
+                        exercitationem error sequi assumenda repellat reiciendis qui consectetur voluptatum 
+                        doloremque?</p>
+                </div>
+                <div class="card-integrantes">
+                    <img src="assets/img/gatito-codeando.jpeg" alt="Sofia Gatito">
+                    <h3>Sofia Medina</h3>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus dolores 
+                        exercitationem error sequi assumenda repellat reiciendis qui consectetur voluptatum 
+                        doloremque?</p>
+                </div>
+            </div>
+        </div>
+        <div id="contacto">
+            <h2 class="titulo">Contacto</h2>
+            <form>
+                <input type="text" placeholder="Nombre"/>
+                <input type="text" placeholder="Apellido"/>
+                <input type="email" placeholder="Email"/>
+                <input type="number" placeholder="Telefono"/>
+                <input type="text" placeholder="Comentario"/>
+                <button class="form-button">Enviar</button>
+            </form>
+        </div>
     </div>
     
 
