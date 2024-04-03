@@ -76,3 +76,37 @@ body {
     font-size: 1rem;
     color: #FFD200;
 }
+
+.card-container {
+    display: flex;
+    justify-content: center; /* Centra los elementos horizontalmente */
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 800px;
+}
+
+.card img {
+    width: 400px; /* Ajusta el ancho de la imagen según tus necesidades */
+    height: auto;
+    object-fit: cover;
+}
+
+.card-info {
+    flex: 1;
+    padding: 20px;
+}
+
+.card-info h2 {
+    margin-top: 0;
+}
+
+.card-info p {
+    margin-bottom: 0;
+}
